@@ -1,0 +1,60 @@
+# Build output
+target/
+out/
+build/
+
+# Keep Maven wrapper jar
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+# Optional: exclude workspace and caches
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/caches/
+.idea/shelf/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Operating system files ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Logs ###
+*.log
+
+### SonarLint ###
+.sonarlint/
+
+### Java ###
+*.class
+
+### Gradle ###
+.gradle/
